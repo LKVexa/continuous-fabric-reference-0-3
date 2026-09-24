@@ -1,0 +1,19 @@
+{
+  "release": "0.3.0",
+  "browser": "Headless Microsoft Edge (Chromium)",
+  "desktopViewport": "1320x900",
+  "narrowViewport": "390x844",
+  "checks": [
+    "sign-in",
+    "version",
+    "CFP hub badge",
+    "about",
+    "literal payload receipt",
+    "job result",
+    "JSON error",
+    "exit status",
+    "narrow viewport"
+  ],
+  "pageErrors": [],
+  "physicalMobile": "NOT_RUN"
+}

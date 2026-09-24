@@ -1,0 +1,38 @@
+{
+  "schema": "CFP_BUILD_EVIDENCE/1",
+  "date": "2026-09-23",
+  "release": "0.3.0",
+  "environment": {
+    "os": "Windows",
+    "node": "24.19.0",
+    "python": "3.12.14"
+  },
+  "reference_tests": {
+    "passed": 28,
+    "failed": 0,
+    "skipped": 0,
+    "evidence": "docs/reference-test-results.txt"
+  },
+  "hermit_selected_regressions": {
+    "passed": 52,
+    "failed": 0,
+    "skipped": 0,
+    "evidence": "docs/hermit-test-results.txt"
+  },
+  "javascript_syntax": {
+    "files": 91,
+    "status": "PASS"
+  },
+  "derived_hermit_files": 94,
+  "bound_python_files": 8,
+  "inventory": {
+    "packages": 115,
+    "metadata_documents": 448
+  },
+  "browser_smoke": "PASS: actual Edge sign-in, about, build, literal payload, job result, JSON errors and responsive resize",
+  "physical_mobile": "NOT_RUN",
+  "physical_cloud": "NOT_RUN",
+  "linux_execution": "NOT_RUN",
+  "production_go": false,
+  "donor_promotions": []
+}

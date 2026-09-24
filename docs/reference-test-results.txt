@@ -1,0 +1,36 @@
+✔ journal persists, detects tampering and torn tail, and refuses quota overflow (26.8666ms)
+✔ actual source adapters: model numerical score, causal conflict preservation, hard scheduler constraints (1159.4079ms)
+✔ idempotency, tenant isolation, restart UNKNOWN, stale receipts, and single-slot admission (895.8965ms)
+✔ real HERMIT terminal -> hub -> outbound agent; receipt survives disconnect and reconnect (2322.9005ms)
+✔ agent rejects off-loopback cleartext; hub refuses non-TLS public binding (5.1073ms)
+✔ deadline expiration preserves unknown outcome and never redispatches; agent cannot self-grant operations (316.1935ms)
+✔ changed bound donor is refused before scheduler import (214.0368ms)
+✔ native HTTPS listener validates a trusted test certificate and serves the terminal configuration (193.2767ms)
+✔ agent storage failure stops delivery instead of reporting an unpersisted success (579.0579ms)
+✔ interpreter discovery rejects non-Python programs and resolves a real absolute executable (336.3201ms)
+✔ launch error reports executable and actionable interpreter configuration (20.538ms)
+✔ process failure preserves exit status and stderr instead of a JSON parser error (142.6146ms)
+✔ empty and malformed adapter responses are distinguished from an unsuccessful process (526.7543ms)
+✔ relocated CLI initializes and checks sources without CFP_PYTHON or a caller working-directory dependency (2122.6112ms)
+✔ quotes, escapes, empty words and comment boundaries preserve literal data (5.7699ms)
+✔ malformed quotes/operators/redirects reject the whole line before side effects (5.4564ms)
+✔ exit status expands at execution time and supports correct conditional recovery (6.7198ms)
+✔ CFP raw argv preserves leading dashes, negative numbers, literal dollars and empty text (50.2928ms)
+✔ command grammar rejects malformed requests without journaling a job (8.1263ms)
+✔ hosted identity, help, banner and about describe the running build (25.5741ms)
+✔ HTTP errors go to stderr, are not piped as successful output, and preserve status (3.8126ms)
+✔ empty, malformed, non-JSON and oversized bridge responses fail with actionable diagnostics (24.5854ms)
+✔ node freshness and job responses distinguish unavailable outcomes from terminal results (430.1666ms)
+✔ host CLI rejects typos and extra arguments; version is the platform version (1171.2339ms)
+✔ cancelled bridge requests report interrupt status without automatic retries (3.5165ms)
+✔ help and exit reject ignored or malformed arguments (1.4004ms)
+✔ browser adapter closes malformed binary frames instead of crashing its handler (14.8428ms)
+✔ real WebSocket: updated presentation, literal payload round trip, JSON errors and read-only authorization (1372.9593ms)
+ℹ tests 28
+ℹ suites 0
+ℹ pass 28
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 6333.6587

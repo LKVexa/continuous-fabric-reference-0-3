@@ -1,0 +1,11 @@
+.state/
+*.log
+__pycache__/
+*.pyc
+node_modules/
+.vws-local/
+.env
+.env.*
+*.tmp
+*.tgz
+dist/
